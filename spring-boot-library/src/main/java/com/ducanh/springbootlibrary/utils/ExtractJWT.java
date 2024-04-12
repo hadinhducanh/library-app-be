@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class ExtractJWT {
 
-    public static String payloadJWTExtraction(String token, String  extraction) {
+    public static String payloadJWTExtraction(String token, String extraction) {
 
         token.replace("Bearer ", "");
 
